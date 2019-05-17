@@ -37,7 +37,7 @@ function searchForBandsInTown(artist) {
         function (response) {
      
             if (response.data[0].venue != undefined) {
-                console.log("**********EVENT INFO*********");
+                console.log("\n**********EVENT INFO*********\n");
                 fs.appendFileSync("log.txt", "**********EVENT INFO*********\n");
                 console.log("Event Venue: " + response.data[0].venue.name);
                 fs.appendFileSync("log.txt", "Event Venue: " + response.data[0].venue.name + "\n");
@@ -68,7 +68,7 @@ function spotifyThisSong(song) {
             if (response.tracks.total === 0) {
                 errorConditionForSpotify();
             } else {
-                console.log("**********SONG INFO*********");
+                console.log("\n**********SONG INFO*********\n");
                 fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
                 console.log("Artist(s): " + response.tracks.items[0].artists[0].name);
                 fs.appendFileSync("log.txt", "Artist(s): " + response.tracks.items[0].artists[0].name + "\n");
@@ -97,7 +97,7 @@ function errorConditionForSpotify() {
         .then(function (response) {
             for (var i = 0; i < response.tracks.items.length; i++) {
                 if (response.tracks.items[i].artists[0].name === "Ace of Base") {
-                    console.log("**********SONG INFO*********");
+                    console.log("\n**********SONG INFO*********\n");
                     fs.appendFileSync("log.txt", "**********SONG INFO*********\n");
                     console.log("Artist(s): " + response.tracks.items[0].artists[0].name);
                     fs.appendFileSync("log.txt", "Artist(s): " + response.tracks.items[0].artists[0].name + "\n");
@@ -125,7 +125,7 @@ function movieThis(movie) {
         function (response) {
 
             if (response.data.Title != undefined) {
-                console.log("**********MOVIE INFO*********");
+                console.log("\n**********MOVIE INFO*********\n");
                 fs.appendFileSync("log.txt", "**********MOVIE INFO*********\n");
                 console.log("Title: " + response.data.Title);
                 fs.appendFileSync("log.txt", "Title: " + response.data.Title + "\n");
