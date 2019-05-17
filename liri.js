@@ -46,7 +46,7 @@ function searchForBandsInTown(artist) {
                 var eventDateTime = moment(response.data[0].datetime);
                 console.log("Event Date & Time: " + eventDateTime.format("dddd, MMMM Do YYYY"));
                 fs.appendFileSync("log.txt", "Event Date & Time:: " + eventDateTime.format("dddd, MMMM Do YYYY") + "\n");
-                console.log("*****************************");
+                console.log("\n*****************************");
                 fs.appendFileSync("log.txt", "*****************************" + "\n");
 
             } else {
@@ -78,7 +78,7 @@ function spotifyThisSong(song) {
                 fs.appendFileSync("log.txt", "Preview Your Song Here: " + response.tracks.items[0].preview_url + "\n");
                 console.log("Album: " + response.tracks.items[0].album.name);
                 fs.appendFileSync("log.txt", "Album: " + response.tracks.items[0].album.name + "\n");
-                console.log("*****************************");
+                console.log("\n*****************************");
                 fs.appendFileSync("log.txt", "*****************************\n");
 
             }
@@ -107,7 +107,7 @@ function errorConditionForSpotify() {
                     fs.appendFileSync("log.txt", "Preview Your Song Here: " + response.tracks.items[0].preview_url + "\n");
                     console.log("Album: " + response.tracks.items[0].album.name);
                     fs.appendFileSync("log.txt", "Album: " + response.tracks.items[0].album.name + "\n");
-                    console.log("*****************************");
+                    console.log("\n*****************************");
                     fs.appendFileSync("log.txt", "*****************************\n");
                     i = response.tracks.items.length;
 
@@ -143,7 +143,7 @@ function movieThis(movie) {
                 fs.appendFileSync("log.txt", "Actors: " + response.data.Actors + "\n");
                 console.log("Rotten Tomatoes Rating: " + response.data.tomatoRating + "\n");
                 fs.appendFileSync("log.txt", "Rotten Tomatoes Rating: " + response.data.tomatoRating + "\n");
-                console.log("*****************************");
+                console.log("\n*****************************");
                 fs.appendFileSync("log.txt", "*****************************\n");
 
 

@@ -118,3 +118,47 @@ Plot: King Arthur and his Knights of the Round Table embark on a surreal, low-bu
 Actors: Graham Chapman, John Cleese, Eric Idle, Terry Gilliam
 Rotten Tomatoes Rating: N/A
 *****************************
+concert-this:
+**********EVENT INFO*********
+Event Venue: BBC Radio 1's Big Weekend
+Event Location: Middlesbrough
+Event Date & Time:: Saturday, May 25th 2019
+*****************************
+concert-this:
+**********EVENT INFO*********
+Event Venue: BBC Radio 1's Big Weekend
+Event Location: Middlesbrough
+Event Date & Time:: Saturday, May 25th 2019
+*****************************
+spotify-this-song:
+**********SONG INFO*********
+Artist(s): Eagles
+Track: Hotel California - 2013 Remaster
+Preview Your Song Here: https://p.scdn.co/mp3-preview/50e82c99c20ffa4223e82250605bbd8500cb3928?cid=2f00b74fe8684743bc369e20c96c71ce
+Album: Hotel California (2013 Remaster)
+*****************************
+movie-this:
+**********MOVIE INFO*********
+Title: Monty Python and the Holy Grail
+Year: 1975
+IMDB Rating: 8.3
+Country: UK
+Language: English, French, Latin
+Plot: King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles.
+Actors: Graham Chapman, John Cleese, Eric Idle, Terry Gilliam
+Rotten Tomatoes Rating: N/A
+*****************************
+do-what-it-says:
+**********SONG INFO*********
+Artist(s): Backstreet Boys
+Track: I Want It That Way
+Preview Your Song Here: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2f00b74fe8684743bc369e20c96c71ce
+Album: The Hits--Chapter One
+*****************************
+do-what-it-says:
+**********SONG INFO*********
+Artist(s): Backstreet Boys
+Track: I Want It That Way
+Preview Your Song Here: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2f00b74fe8684743bc369e20c96c71ce
+Album: The Hits--Chapter One
+*****************************
