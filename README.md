@@ -14,9 +14,11 @@ LIRI is a Language Interpretation and Recognition Interface. LIRI is a command l
 
 - - -
 ## HOW TO USE LIRI
-### **Video Guide**
+### **Gif Guide**
 
-Watch the video here: 
+See it in action: 
+
+![](liri.gif)
 
 ### **Step by Step instructions**
 
