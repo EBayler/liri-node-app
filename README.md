@@ -23,7 +23,6 @@ Watch the video here:
 1. Open your terminal such as Bash.
 2. Navigate to the folder that contains the `liri.js` file. 
 3. Depending on the command you run, the output will vary. 
-4. If your query is multiple words please ensure you put it in quotations. Ex: "Hotel California"
 
     **Example 1**: Run the `concert-this` command
     

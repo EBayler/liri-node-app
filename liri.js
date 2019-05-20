@@ -9,8 +9,8 @@ let spotify = new Spotify(keys.spotify);
 
 
 
-let command = process.argv[2]
-let searchTerm = process.argv[3]
+let command = process.argv[2];
+let searchTerm = process.argv.slice(3).join(" ");
 
 fs.appendFileSync('log.txt', command + ":\n", function (err) {
     if (err) throw err;
